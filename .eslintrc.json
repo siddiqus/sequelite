@@ -1,0 +1,65 @@
+// eslint-disable-next-line no-undef
+{
+  "env": {
+    "node": true,
+    "commonjs": true
+  },
+  "parser": "@typescript-eslint/parser",
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier",
+    "plugin:prettier/recommended"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 2019,
+    "sourceType": "module"
+  },
+  "rules": {
+    "@typescript-eslint/ban-ts-comment": [
+      2,
+      {
+        "ts-ignore": "allow-with-description"
+      }
+    ],
+    "@typescript-eslint/explicit-module-boundary-types": [
+      "off"
+    ],
+    "quotes": [
+      "error",
+      "single",
+      {
+        "avoidEscape": true,
+        "allowTemplateLiterals": true
+      }
+    ],
+    "import/no-dynamic-require": 0,
+    "global-require": 0,
+    "import/prefer-default-export": 0,
+    "no-underscore-dangle": 0,
+    "no-await-in-loop": 0,
+    "no-restricted-syntax": 0,
+    "no-return-await": 0,
+    "no-console": 0,
+    "comma-dangle": 0,
+    "@typescript-eslint/camelcase": 0,
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "@typescript-eslint/ban-ts-ignore": "off",
+    "@typescript-eslint/no-var-requires": "off",
+    "unused-imports/no-unused-imports": "error",
+    "prettier/prettier": [
+      "error",
+      {      
+        "semi": false,
+        "bracketSpacing": true,
+        "trailingComma": "all",
+        "singleQuote": true,
+        "endOfLine": "lf"
+      }
+    ]
+  },
+  "plugins": [
+    "unused-imports"
+  ]
+}
