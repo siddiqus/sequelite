@@ -210,7 +210,7 @@ async function fetchSingleData(): Promise<any> {
 
 Going forward, let's assume `Attributes` is your interface for your model object (which extends `BaseAttributes` from this package).
 
-### Common MySQL instance methods
+### Common SQL instance methods
 
 #### *create*
 ```typescript
