@@ -1,6 +1,6 @@
 {
   "name": "@siddiqus/sequelite",
-  "version": "1.1.0",
+  "version": "1.0.1",
   "description": "Lightweight TypeScript ORM wrapping Sequelize",
   "keywords": [
     "mysql",
