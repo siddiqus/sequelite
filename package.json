@@ -17,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/siddiqus/sequelite/issues"
   },
-  "license": "UNLICENSED",
+  "license": "MIT",
   "author": {
     "name": "Sabbir Siddiqui",
     "email": "sabbir.m.siddiqui@gmail.com"
