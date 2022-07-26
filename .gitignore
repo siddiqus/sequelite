@@ -1,0 +1,26 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build directories
+lib
+
+# Dependency directories
+node_modules
+
+# Output of 'npm pack'
+*.tgz
+
+# Others
+coverage
+package-lock.json
+consul.d/**/*
+.idea
+consul-data
+.DS_Store
+express-example/
+
+example/
